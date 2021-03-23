@@ -6,7 +6,9 @@ h1,h2,h3,h4,h5,h6,a,p{font-family: 'Roboto', sans-serif;}
 .slider-section .container-fluid{ max-width: 1400px;
 }
 img{max-width: 100%;}
-
+a:hover, a:active {
+     background-color: rgba(73, 17, 230, 0.911);font-size:105%;
+   }
 ul.our-primary-munu{ }
 ul.our-primary-munu li { }
 ul.our-primary-munu li a {text-decoration: none;
@@ -57,6 +59,7 @@ div#service {
     text-align: center;
     color: #0a1cef;
     margin: 10px;
+    text-shadow: 2px 2px red;
 }
 /* Service section*/
 
@@ -110,3 +113,135 @@ div#web-digine {
 .footer-copyright{
      margin-bottom: 0px;
  }
+
+h1 {
+    text-shadow: 2px 2px red;
+}body,p,span{font-family: 'Oswald', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,a,p{font-family: 'Roboto', sans-serif;}
+
+.maine-heder .container-fluid,
+.slider-section .container-fluid{ max-width: 1400px;
+}
+img{max-width: 100%;}
+
+ul.our-primary-munu{ }
+ul.our-primary-munu li { }
+ul.our-primary-munu li a {
+     text-decoration: none;
+     display: inline-block;
+     padding: 13px 48px;
+     color: rgb(35, 255, 119);
+}
+
+/* dropdawon manu */
+ul.our-primary-munu li{position: relative;}
+ul.our-primary-munu li ul{position: absolute;
+     width: 262px;
+     left: -50px;
+     top:150%;
+      background:rgb(50 62 62);
+    list-style: none;
+    opacity: 0px;
+     visibility: hidden;
+     transition: all .4s ease-in-out;
+     }
+ul.our-primary-munu li ul li{flex-direction: column;}
+
+ul.our-primary-munu li:hover ul{opacity: 1; visibility: visible;top: 100%;}
+ul.our-primary-munu li ul li a{}
+ul.our-primary-munu li ul li :hover
+
+/* about section */
+#about-sakib{ color: red;}
+
+div#about-sakib {color: rebeccapurple;}
+
+.slider-section{     background: url(img/25.png) no-repeat #69c3c78a;
+   }
+   div#about-sakib h1 h6{ padding-bottom: 50px ;}
+   img#photo {
+     height: 350px;
+     width: 350px;
+     padding: 20px;
+     }
+     img{ padding-bottom: 20px;}
+
+div#content\ position {
+    padding: 40px;
+}
+
+div#service {
+    text-align: center;
+    color: #0a1cef;
+    margin: 10px;
+    text-shadow: 2px 2px red;
+}
+/* Service section*/
+
+.service-selection{background: url(img/26.png)no-repeat #5ae65ea1;}
+
+div#web-digine {
+    text-align: center;
+    color: #f5e313;
+    border: 2px solid #2ae45b;
+    background: #0e0e0569;
+    
+}
+/*Footer*/
+
+.footer{
+     background-color: #111111;
+     color: #fff;
+}
+.footer a{ color: #fff;}
+.footer-widget h3 {
+     font-size: 25px;
+     border-bottom: 1px solid #ffee57;
+     padding-bottom: 20px;
+     margin-bottom: 20px;
+ }
+.footer-widget ul{ list-style: none;
+          padding-left: 0px;
+     margin-left: 0px;}
+
+.footer-widget ul li{ margin: 12px 0;}
+.footer-widget ul li a{ text-decoration: none;}
+.footer-top p{ border-bottom: 2px solid #444;}
+/*foter social*/
+.widged-social{ }
+.widged-social ul{display: flex; }
+.widged-social ul li{padding: 10px 0;
+          margin: 0 !important; }
+.widged-social ul li span{ display: inline-block;
+                         margin-right: 3px;
+                       font-size: 18px;}
+.widged-social ul li a{font-size: 20px;
+            padding:10px 10px ;}
+
+.footer-contact{ }
+.footer-contact-items{margin-bottom: 20px;}
+.footer-contact-items span{display: inline-block;
+                           margin-right: 15px;}
+.footer-contact-items span i{}
+.footer-contact-items a{text-decoration: none;}
+
+.footer-copyright{
+     margin-bottom: 0px;
+ }
+
+h1 {
+    text-shadow: 2px 2px red;
+}
+
+div#border-digine {
+    border: 2px solid #26efd3;
+    height: 230px;
+    width: 400px;
+    line-height: 40px;
+    padding: 25px;
+    margin: 10px;
+    font-size: 25px;
+    margin-left: 30px;
+    background-color: #00000080;
+}
