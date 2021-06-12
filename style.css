@@ -28,6 +28,12 @@ body{
         "footer footer footer footer footer footer"
     ;
 }
+.logo {
+    height: 10%;
+    margin: 0;
+    padding: 0;
+    border-radius: 100%;
+}
 .header{
     background-color: #fefefe;
     grid-area:header ;
@@ -38,6 +44,7 @@ body{
 .nav{ display: flex;
     list-style: none;
     padding: 0;
+    flex-wrap: wrap;
 }
 .nav li{
     padding: 0 5px;
@@ -45,7 +52,7 @@ body{
 .nav li a{
     text-decoration: none;
     color: rgb(57, 12, 38);
-    padding:10px 20px;
+    padding:0.8rem;
     border: 1px solid orange;
     border-radius: 10px;
     font-size: 20px;
@@ -198,7 +205,7 @@ color: #fefefe;
     color: #fefefe;
 }
 .icon{
-    color: rgb(165, 255, 5);
+     color: rgb(35 88 213 / 95%);
 }
 .fas{
     text-decoration: none;
@@ -225,7 +232,7 @@ color: #fefefe;
 @media screen and (max-width:480px){
 	#grid{ 
 	grid-template-rows:
-	104px 
+	100px 
 	400px
 	373px
 	373px
@@ -242,10 +249,33 @@ color: #fefefe;
         "footer footer footer footer footer footer"
     ;
 }
+.logo {
+    height: 50%;
+    margin: 0;
+    padding: 0;
+    border-radius: 100%;
+}
+.header{
+    justify-content:start;
+}
+.nav{
+    width: 50%;
+}
+.nav li{
+    padding: 9px 5px;
+}
+.nav li a{
+    padding: 6px 14px;
+}
 .profile img {
     height: 90%;
     width: 80%;
     margin-left: 6%;
+}
+
+.icons{
+    display: block;
+    width: 20px;
 }
 .block{
     display: inline;
@@ -255,12 +285,14 @@ color: #fefefe;
     width: 100%;
     font-size: 18px;
     border: 1px solid #fff;
-    line-height: 17px;}
+    line-height: 17px;
+}
 #none{
     display: none;
 }
 .footer{
     display: inline;
 }
+
 }
-}
+
