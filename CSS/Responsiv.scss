@@ -1,0 +1,137 @@
+@media only screen and (max-width: 1300px) {
+    .nav ul li{
+        padding: 0.2em;
+    }
+    .nav ul li a{
+        padding:0.5rem;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .nav ul li a{
+        padding:0.3rem;
+    }
+}
+@media only screen and (max-width: 1100px){
+    .btn{
+        padding: 0.5rem;
+    }
+    .col-3{
+        height: 20rem;
+    }
+    .galary i{
+        font-size: 3rem;
+    }
+}
+@media only screen and (max-width: 1050px){
+    .nav{
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+        color: rgb(17, 253, 17);
+        font-size: 3rem;
+    }
+    .d-flex a{
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width: 950px){
+    .col-3{
+        font-size: 1.1rem;
+    }
+}
+@media only screen and (max-width: 850px){
+    .profile img{
+        width: 90%;
+        height: 60%;
+        border: 5px solid orange;
+        border-radius: 10px;
+    }
+    .col-3{
+        font-size: 1rem;
+    }
+    
+.position p {
+  margin: 0.8rem;
+}
+.col-3 {
+  font-size: 0.9rem;
+}
+    .fa-chevron-circle-left {
+        left: -4rem;
+      }
+     .fa-chevron-circle-right {
+        right: -4rem;
+      }
+      .footer {
+        font-size: 1rem;
+      }
+      .d-flex a {
+        font-size: 0.9rem;
+      }
+}
+@media only screen and (max-width: 550px){
+    .slider{
+        height: 50%;
+    }
+    .about__section {
+        width: 95%;
+        display: flex;
+        flex-direction: column-reverse;
+      }
+      .profile img {
+        width: 100%;
+        height: 50%;
+        margin: auto;
+        border-radius: 10px;
+      }
+      .block {
+        display: block;
+        width: 100%;
+    }
+    .col-3 {
+        font-size: 1.5rem;
+        width: 100%;
+        margin-top: 2rem;
+      }
+      .galary i {
+        display: none;
+      }
+      .image_ps {
+        flex-direction: column-reverse;
+      }
+.about h1 {
+  font-size: 2rem;
+  margin: 0.5rem;
+}
+.galary i {
+    font-size: 2.5rem;
+  }
+  .fa-chevron-circle-right {
+    right: -3rem;
+  }
+  .fa-chevron-circle-left {
+    left: -3rem;
+  }
+  .footer{
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 360px){
+    .position p {
+        margin: 0.1rem;
+      }
+      .col-3 {
+        font-size: 1.3rem;
+      }
+}
+@media only screen and (max-width: 250px){
+    .col-3 {
+        font-size: 1.1rem;
+      }
+      .footer{
+          font-size: 1rem;
+      }
+}
